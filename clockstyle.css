@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(to bottom, #228b22, #77a102, #556b2f);
+    /* Make the gradient cover the full page */
+    min-height: 100vh;
+}
+
+
+#mainContainer{
+padding-top: 50px;
+align-content: center;
+}
+
+
+/*counter container*/
+#counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*fieldsets for the HH MM SS*/
+.container{
+    height: 200px;
+    width: 200px;
+    border: transparent;
+
+
+}
+/*button div*/
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/*buttons*/
+.button{
+
+    height: 40px;
+    width: 120px;
+    border: transparent;
+    border-radius: 20px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 5px 3px 2px #141a0b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+#title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 10px 5px 6px #141a0b;
+    text-rendering: auto;
+
+}
+
+/* input text field*/
+.inputContainer{
+    height: 40px;
+    width: 120px;
+    width: 200px;
+    height: 180px;
+    border: transparent;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(253, 253, 253);
+    background-color: rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.39);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 10px 5px 5px #141a0ba8;
+}
+
+/*legend*/
+.caption{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: 5px 3px 3px #141a0b;
+}
+
+.separator{
+    color: azure;
+}
+
+
+#lapsContainer{
+    width: 200px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-shadow:5px 3px 3px #141a0b ;
+
+}
+#lapsTime{
+margin: auto;
+padding: 10px;
+}
+
+#elapsetime{
+    text-align: center;
+    padding: 5px;
+    font-size: 25px;
+}
+.button:active{
+    transform:translateY(3px);
+    background-color: #46691062;
+    box-shadow: none;
+}
+.button:hover{
+    transform: translateY(1px) !important;
+    transform: translateX(1px);
+    height: 42px;
+    width: 122px;
+    box-shadow: 6px 4px 1px #141a0b56;
+
+}

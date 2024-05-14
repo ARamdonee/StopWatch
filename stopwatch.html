@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <!--Instruct the browser to display the content so that it fits to the screen of the device-->
+                <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>
+            Stopwatch
+        </title>
+        <link rel="stylesheet" type="text/css" href="clockstyle.css">
+        <script type="text/javascript" src="C:\Users\Atishay\Documents\web development\website\digital clock\clockscrypt.js">
+        </script> 
+    </head>
+    <body>
+        <!--main container-->
+        <div id="mainContainer">
+            <!--Title of the web app-->
+            <h1 id="title">Stopwatch</h1>
+            <!--container for the counter-->
+            <div id="counter">
+                <fieldset class="container">
+                    <legend class="caption">Hours</legend>
+                    <input type="text" id="hours" class="inputContainer" placeholder="HH">
+                </fieldset>
+                <h1 class="separator">:</h1>
+
+                <fieldset class="container">
+                    <legend class="caption">Minutes</legend>
+                    <input type="text" id="minutes" class="inputContainer" placeholder="MM">
+                </fieldset>
+                <h1 class="separator">:</h1>
+
+                <fieldset class="container">
+                    <legend class="caption">Seconds</legend>
+                    <input type="text" id="seconds" class="inputContainer" placeholder="SS">
+                </fieldset>
+            </div>
+            <!--Button container-->
+            <div id="button">
+                <button type="button" id="startButton" class="button" onclick="startTimer()">START</button>
+                <button type="button" id="stopButton" class="button" onclick="stopTimer()">STOP</button>
+                <button type="button" id="resetButton" class="button" onclick="resetTimer()">RESET</button>
+            </div>
+            <br>
+            <div id="lapsContainer">
+                <ul id= "elapsetime">
+                    <h3 id = "lapsTime">Laps' Time</h3>
+                </ul>
+            </div>
+
+        </div>
+    </body>
+</html>
